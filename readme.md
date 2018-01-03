@@ -1,7 +1,6 @@
 ## guitocons :
 ### attach the GUI stdout & stderr outputs to the calling process console (if there is one)
-
-
+##
 
 **install with :** `go get \github.com\ffred\guitocons`
 
