@@ -1,6 +1,6 @@
-## guitocons:## ###attach the GUI stdout & stderr outputs to the calling process console (if there is one)###
+## guitocons: attach the GUI stdout & stderr outputs to the calling process console (if there is one)
 
-** install with :** `go get \github.com\ffred\guitocons`
+**install with :** `go get \github.com\ffred\guitocons`
 
 On Windows if you build your Go project with '-ldflags="-H windowsgui' parameters, you got a "GUI" program, with no console.
 even if you launch your program from a console, you won't have any output on it from 'fmt' or 'log' functions.
