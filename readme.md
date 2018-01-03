@@ -3,7 +3,7 @@
 ##
 
 **install with :** `go get \github.com\ffred\guitocons`
-
+##
 On Windows if you build your Go project with '-ldflags="-H windowsgui' parameters, you got a "GUI" program, with no console.
 even if you launch your program from a console, you won't have any output on it from 'fmt' or 'log' functions.
 I tried a few GUI samples on Go witch was outputting values on the console and wasn't showing any of it for me on Windows, so I search a way to change that.
