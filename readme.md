@@ -14,7 +14,7 @@ _I'm rather new to Go programming, so there's probably better or different ways 
 
 there's not much informations with Go language about that GUI/console "problem" online. I found what I needed [here.](https://stackoverflow.com/questions/23743217/printing-output-to-a-command-window-when-golang-application-is-compiled-with-ld/23744350) 
 
-
+##
 
 a simple way to test it is by building this small code with '-ldflags="-H windowsgui' parameters and launch it from a console, or not :
 
