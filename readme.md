@@ -8,7 +8,7 @@ On Windows if you build your Go project with '-ldflags="-H windowsgui' parameter
 even if you launch your program from a console, you won't have any output on it from 'fmt' or 'log' functions.
 I tried a few GUI samples on Go witch was outputting values on the console and wasn't showing any of it for me on Windows, so I search a way to change that.
 
-this small package attach the parent process console to your GUI program, so you can still output logs during development or whatever need you could have with your final program.
+this small package attach the parent process console to your GUI program, so you can still output logs during development or whatever you could need for your final program.
 
 _I'm rather new to Go programming, so there's probably better or different ways to do that, but for now its working... :-)_
 
